@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.14" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《测试计划》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--EQB-Qo:" language="zh-cn" productVersion="12.0.0" ?><?mso-application progid="InfoPath.Document"?><测试计划 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="音乐教学论坛" 项目标识="管理系统" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识></文件标识>
+			<当前版本>2.0</当前版本>
+			<作者>
+				<姓名>孙玮捷</姓名>
+				<学号></学号>
+				<团队>九二七</团队>
+			</作者>
+			<完成日期>2018-10-20</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml">1、将背景具体了一下</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">2、测试计划的尺度更新</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">3、安排进度按照 质量保证计划、软件需求说明书更改</font></div></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>九二七团队管理人员、质量保证人员、技术负责人、系统设计人员、项目开发人员。</使用人员>
+			<编写目的>   编写该计划的目的是用于交流软件测试小组的意图、期望，以及对将要执行的任务的理解。通过测试计划过程得到产品质量和可靠性目标清晰、简洁和一致通过的定义。</编写目的>
+			<背景><div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt; TEXT-INDENT: 21pt; LINE-HEIGHT: 150%" align="justify" xmlns="http://www.w3.org/1999/xhtml"><font face="宋体">近来由于我国经济、科技的高速发展，中国在国际上的地位日渐提高。有很多国际上的学术会议都开始在我国举行。在这种形势下，仅用人力管理学术会议已明显不能满足需求。所以急需一套电脑系统辅助管理。让人们从繁杂的工作中脱离出来，转向更富有创造性的活动，从而提高效率，提高质量。<br/>   《学术会议管理系统》是对学术会议进行综合管理的平台系统。它要完成会议组织人员、参加会议人员、欲参加会议人员等管理、咨询等任务。其目的是让学术会议管理更加高效、高质，让与会者更加满意。</font></div>
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt; TEXT-INDENT: 21pt; LINE-HEIGHT: 150%" align="justify" xmlns="http://www.w3.org/1999/xhtml"><font face="宋体">由于教学《学术会议管理系统》的实际应用性质，该系统主要是在功能、性能、可靠性、出错处理、接口、约束等方面的要求比较高，所以这次测试主要是将工作放在功能性测试和界面测试的范畴上。而对于压力测试和容错性等方面的测试暂不考虑。</font></div></背景>
+			
+			<参考资料>
+				<条目>《软件需求说明书》，软件工程项目开发小组，2018年10月</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<总体设计>
+		<硬件设备><div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt; TEXT-INDENT: 21pt" align="justify" xmlns="http://www.w3.org/1999/xhtml"><font face="宋体">运行本软件所要求的硬设备的最小配置：</font></div>
+<ul style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" type="disc" xmlns="http://www.w3.org/1999/xhtml">
+<li style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="undefined"><font face="宋体">服务器端子系统的硬件要求：</font>Pentium III 450<font face="宋体">以上</font>, 2G RAM,  40G SCIS<font face="宋体">的</font>PC<font face="宋体">机</font>1</font><font face="宋体">台以上。</font> </li>
+<li style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="undefined"><font face="宋体">客户端子系统的的硬件要求：</font>Pentium III 450<font face="宋体">以上</font>, 256M RAM,  40G HD<font face="宋体">的</font>PC<font face="宋体">机</font>1</font><font face="宋体">台或多台。</font></li></ul></硬件设备>
+		<软件环境>
+			<服务器><div xmlns="http://www.w3.org/1999/xhtml">操作系统：window  </div>
+<div xmlns="http://www.w3.org/1999/xhtml">数据库： mysql</div></服务器>
+			<客户端><font xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 10.5pt"> 
+<ul style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" type="disc">
+<li style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="undefined"><font face="宋体">系统软件：</font> Window 2000/XP</font> </li>
+<li style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt" align="justify">cheome 70.0.35 </li>
+<li style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt" align="justify">FIREFOX：60.0</li><font style="FONT-SIZE: 10.5pt"></font></ul></font></客户端>
+		</软件环境>
+	</总体设计>
+	<需求概述>
+		<说明>参考本团队音乐教学论坛 《 需求规格说明书 》 严格按用户需求对项目进行全面测试。</说明>
+		<功能性测试><div xmlns="http://www.w3.org/1999/xhtml">1. 非会员功能 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2. 教学视频的（查询、修改、删除） </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2. 对于用户的（查询、修改、删除） </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2. 修改个人信息 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2. 留言板的（查询、修改、删除） </div>></功能性测试>
+		<用户界面测试>1. 桌面用户界面应当在chrome中显示正常。<br xmlns="http://www.w3.org/1999/xhtml"/>2. 系统用户界面美观而且人性化。</用户界面测试>
+	</需求概述>
+	<测试计划>
+		<软件说明>
+			<单元 单元编号="01" 单元说明="注册">
+				<功能点><div xmlns="http://www.w3.org/1999/xhtml">能够注册，且输入信息与数据库信息正确。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">非法信息能够被系统屏蔽。</div></功能点>
+				<测试类型>功能测试</测试类型>
+			<功能点>响应时间不超过1秒</功能点><测试类型>性能测试</测试类型></单元>
+		<单元 单元编号="02" 单元说明="登陆">
+									<功能点><div xmlns="http://www.w3.org/1999/xhtml">能够登陆。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">非法信息能够被系统屏蔽。</font></div></功能点>
+									<测试类型>功能测试</测试类型>
+								<功能点>响应时间不超过3秒</功能点><测试类型>性能测试</测试类型></单元><单元 单元编号="03" 单元说明="管理个人资料">
+									<功能点><div xmlns="http://www.w3.org/1999/xhtml">能够修改个人资料，且输入信息与数据库信息正确。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">非法信息能够被系统屏蔽。</font></div></功能点>
+									<测试类型>功能测试</测试类型>
+								<功能点><div xmlns="http://www.w3.org/1999/xhtml">能够修改密码。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">非法信息能够被系统屏蔽。</font></div></功能点><测试类型>功能测试</测试类型></单元>
+<单元 单元编号="04" 单元说明="学习">
+									<功能点>
+									<div xmlns="http://www.w3.org/1999/xhtml">能够观看相关教学视频</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">查看学习历史</font></div>
+</功能点>
+									<测试类型>功能测试</测试类型>
+								</单元><单元 单元编号="05" 单元说明="论坛部分">
+									<功能点><div xmlns="http://www.w3.org/1999/xhtml">创建留言</div>
+<div xmlns="http://www.w3.org/1999/xhtml">删除留言</div>
+<div xmlns="http://www.w3.org/1999/xhtml">打开关闭留言板功能</div>
+<div xmlns="http://www.w3.org/1999/xhtml">搜索论坛</div>
+<div xmlns="http://www.w3.org/1999/xhtml">管理帖子</div></功能点>
+
+									<测试类型>性能测试</测试类型></单元><单元 单元编号="06" 单元说明="管理">
+									<功能点><div xmlns="http://www.w3.org/1999/xhtml">添加新用户</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">删除用户</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">添加学习资源</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #cce8cf">删除学习资源</font></div></功能点>
+									
+								</单元></软件说明>
+		<测试工具>Mecury QuickTest Pro8.2</测试工具>
+		<测试概述>
+			<目的和任务><div xmlns="http://www.w3.org/1999/xhtml">1 、测试已实现的产品是否达到设计的要求，包括：各个功能点是否以实现，业务流程是否正确<br/>2 、产品规定的操作和运行稳定。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3 、 Bug 数和缺陷率控制在可接收的范围之内。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">4 、保证系统代码编写质量符合需求规格说明书要求和用户验收要求。</div></目的和任务>
+			<安排和进度>
+				<活动>跟踪测试</活动>
+				<开始时间>2018-10-28</开始时间>
+				<结束时间>2008-12-16</结束时间>
+				<实施者>赵旭，杨启民，李锦媛</实施者>
+			</安排和进度>
+
+			<安排和进度>
+									<活动>单元测试</活动>
+									<开始时间>2008-12-16</开始时间>
+									<结束时间>2008-12-24</结束时间>
+									<实施者>赵旭，杨启民，李锦媛</实施者>
+								</安排和进度>
+								
+								<安排和进度>
+									<活动>系统测试评审</活动>
+									<开始时间>2008-12-25</开始时间>
+									<结束时间>2008-12-25</结束时间>
+									<实施者>赵琦，邵景海</实施者>
+								</安排和进度>
+								
+								<条件><div xmlns="http://www.w3.org/1999/xhtml">设备要求：    </div>
+<div xmlns="http://www.w3.org/1999/xhtml">     WEB 服务     </div>
+<div xmlns="http://www.w3.org/1999/xhtml">     装有chrome浏览器的主机</div>
+<div xmlns="http://www.w3.org/1999/xhtml">所需测试软件及支持软件：     </div>
+<div xmlns="http://www.w3.org/1999/xhtml">      chrome     </div>
+<div xmlns="http://www.w3.org/1999/xhtml">      mysql
+ </div>
+<div xmlns="http://www.w3.org/1999/xhtml">工作人员：     </div>
+<div xmlns="http://www.w3.org/1999/xhtml">      测试人员 3 人，熟悉测试方法      </div>
+<div xmlns="http://www.w3.org/1999/xhtml">      标准测试用户 2 人，明确音乐教学论坛的需求。</div></条件>
+			<测试交付产品><div xmlns="http://www.w3.org/1999/xhtml">《 音乐教学论坛测试计划 》 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">《 音乐教学论坛测试用例 》 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">《 音乐教学论坛分析报告 》 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">《 缺陷跟踪报告 》</div></测试交付产品>
+		</测试概述>
+	</测试计划>
+	<测试设计说明>参见附录： 《 系统测试用例说明 》</测试设计说明>
+	<评价准则>
+		<范围><ol xmlns="http://www.w3.org/1999/xhtml" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" type="1">
+<li>功能测试 </li>
+<li>界面测试 </li>
+<li>安全测试</li></ol></范围>
+		<尺度><div xmlns="http://www.w3.org/1999/xhtml">1、功能测试: 用户对系统的使用时间不限定。85%的基础功能要求完全正确， 其他时间可以用于停机维护，其中生成的学习历史需要完全正确。发通知系统允许出现少量错误。论坛模块需要完全正确。在信息查询方面要求用户能准确查到信息。 <br/></div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、界面测试：要求界面的跳转速度不低于五秒，页面刷新的时间不超过五秒。界面按钮执行的功能基本正确，界面的重要功能排版突出重点,清晰明了。 <br/></div>
+<div xmlns="http://www.w3.org/1999/xhtml">3、安全测试：对于用户输入的非法字符（如：SQL注入字符等）系统能给给予很好的屏蔽。应对黑客类似这样的攻击，能够达到85%的安全。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></尺度>
+	</评价准则>
+</测试计划>
