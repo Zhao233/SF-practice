@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.2" PIVersion="1.0.0.0" href="file:///D:\软件项目开发实践\集成测试报告.xsn" name="urn:schemas-microsoft-com:office:infopath:--EU--Qo:" language="zh-cn" productVersion="12.0.0" ?><?mso-application progid="InfoPath.Document"?><集成测试报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="猫鱼音乐教学论坛" 项目标识="集成" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识></文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>雷帅洪</姓名>
+				<学号>2015011366</学号>
+				<团队>9.17团队</团队>
+			</作者>
+			<完成日期>2018-11-04</完成日期>
+		</状态与版本信息>
+		<引言>
+			<使用人员>项目经理,项目开发人员,产品维护人员以及需要使用到测试文档的人员</使用人员>
+			<编写目的><div xmlns="http://www.w3.org/1999/xhtml">1.给出集成测试的结论以及改进建议</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.报告测试的结果给项目经理及开发人员</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.根据集成测试报告进行进一步的工作,包括修改代码,甚至设计</div></编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">1.成功完成用户登录以及观看学习资源的单元测试</div></背景>
+			<定义与缩写>
+				<术语>严重错误</术语>
+				<解释><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.数据库连接失败</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.出现servlet无法进行相应的提示</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.出现其他无法理解的信息</div></解释>
+			<术语>非严重错误</术语><解释><div xmlns="http://www.w3.org/1999/xhtml">1.没有按照预期结果进行但没有出现严重错误的情况</div></解释><术语>非功能错误</术语><解释>1.能正确执行功能,但无法达到进行正常用户体验的标准</解释></定义与缩写>
+			<参考资料>
+				<条目>软工9.17-集成测试用例</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<测试概要>
+		<测试用例设计><div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1.用户登录后对相关视频资源进行浏览学习</div>
+		<测试环境与配置>
+			<硬件环境><div xmlns="http://www.w3.org/1999/xhtml">测试环境：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    最低配置 cpu 奔腾4以上。内存 256MB 以上。硬盘 16G以上。配有鼠标，键盘，显示器</div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统配置：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1.网络连接正常</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.网络流量不能负担过重</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.软件测试平台为windows操作系统下IE7及以上</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.测试平台参数设置正确</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.确保平台上运行的其他程序不会干扰测试结果</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.画面分辨率和色彩设定正确</div>
+<div xmlns="http://www.w3.org/1999/xhtml">7.测试平台硬件配置正确</div></硬件环境>
+			<软件环境><div xmlns="http://www.w3.org/1999/xhtml">windows操作系统 IE7以及上浏览器</div></软件环境>
+		</测试环境与配置>
+		<测试方法和工具><div xmlns="http://www.w3.org/1999/xhtml">手工测试</div>
+<div xmlns="http://www.w3.org/1999/xhtml">采用黑盒测试的方法进行测试</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对于用户登录和观看视频资源这两个模块的接口进行测试</div></测试方法和工具>
+	</测试概要>
+	<测试结果>
+		<测试执行结果与建议><div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+<div xmlns="http://www.w3.org/1999/xhtml">执行成功，用户登录后能够对相应的视频进行学习和观看</div>
+		<建议>1.在时间允许的情况下,可以改进算法以及优化界面</建议>
+	</测试结果>
+</测试报告>
