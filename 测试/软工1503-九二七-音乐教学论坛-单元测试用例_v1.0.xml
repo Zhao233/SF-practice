@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.3" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《测试案例》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--E8--Qo:" language="zh-cn" productVersion="12.0.0" ?><?mso-application progid="InfoPath.Document"?><测试用例 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2013">
+	<首部 项目名称="音乐教学论坛" 项目标识="单元" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识></文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>杨启民</姓名>
+				<学号>2015011374</学号>
+				<团队>927小组</团队>
+			</作者>
+			<完成日期>2018-11-04</完成日期>
+			<版本更新信息>暂无</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>包括编写单元测试报告，集成测试报告的人员和后续产品维护人员以及需要使用到测试文档的人员</使用人员>
+		</引言>
+	</首部>
+	<项目>
+		<测试项目名称>音乐教学论坛（用户登录部分）</测试项目名称>
+		<测试人员>杨启民</测试人员>
+		<测试时间>2018/11/1-2018/11/4</测试时间>
+		<测试内容>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;.模块功能测试：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试名称：功能测试</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试进度安排：2018/11/1-2018/11/4</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试内容：用户登陆：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试的目的主要是：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">用户账号密码正确时是否可以正常登陆，密码错误时是否提示</div>
+		</测试内容>
+		<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml">测试环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">硬件环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">最低配置 cpu corei3以上。内存 1GB 以上。配有鼠标，键盘，显示器</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">软件环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">windows操作系统 IE浏览器</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">系统配置：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">1.网络连接正常</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">2.网络流量不能负担过重</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">3.软件测试平台为windows操作系统下IE</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">4.测试平台参数设置正确</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">5.确保平台上运行的其他程序不会干扰测试结果</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">6.测试平台硬件配置正确</div>
+		</测试环境与系统配置>
+		<测试输入数据>
+			<div xmlns="http://www.w3.org/1999/xhtml">15600991123 123456</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">15600991123 123457</div>
+		</测试输入数据>
+		<预期结果>
+			<div xmlns="http://www.w3.org/1999/xhtml">第一组数据可以完成用户登陆操作</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">第二组数据提示密码错误</div>
+		</预期结果>
+		<测试过程>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">1.点击登陆按钮</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">2.账号输入15600991123</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">3.密码输入123456</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">4.点击登陆</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">5.登陆成功，返回首页</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;2&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">1.点击登陆按钮</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">2.账号输入15600991123</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">3.密码输入123457</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">4.点击登陆</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">5.登陆失败，提示密码错误</div>
+		<测试结果>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">第一组数据正常登陆</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;2&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">第二组数据登陆异常</div>
+		</测试结果>
+		<测试结论>主要功能完全实现，程序运行状况良好</测试结论>
+	</项目>
+	<项目>
+		<测试项目名称>音乐教学论坛（观看视频部分）</测试项目名称>
+		<测试人员>杨启民</测试人员>
+		<测试时间>2018/11/1-2018/11/4</测试时间>
+		<测试内容>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;.模块功能测试：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试名称：功能测试</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试进度安排：2018/11/1-2018/11/4</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试内容：用户观看视频：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">测试的目的主要是：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">网页压力测试</div>
+		</测试内容>
+		<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml">测试环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">硬件环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">最低配置 cpu corei3以上。内存 1GB 以上。配有鼠标，键盘，显示器</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">软件环境：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">windows操作系统 IE浏览器</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">系统配置：</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">1.网络连接正常</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">2.网络流量不能负担过重</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">3.软件测试平台为windows操作系统下IE</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">4.测试平台参数设置正确</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">5.确保平台上运行的其他程序不会干扰测试结果</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">6.测试平台硬件配置正确</div>
+		</测试环境与系统配置>
+		<测试输入数据>
+			<div xmlns="http://www.w3.org/1999/xhtml">100+用户点击视频进行观看</div>
+		</测试输入数据>
+		<预期结果>
+			<div xmlns="http://www.w3.org/1999/xhtml">用户可以正常观看，网页不崩溃</div>
+		</预期结果>
+		<测试过程>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">1.用户登陆成功</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">2.点击视频观看</div>
+		<测试结果>
+			<div xmlns="http://www.w3.org/1999/xhtml">&lt;1&gt;</div>
+			<div xmlns="http://www.w3.org/1999/xhtml">用户成功观看视频，网页并无报错</div>
+		</测试结果>
+		<测试结论>主要功能完全实现，程序运行状况良好</测试结论>
+	</项目>
